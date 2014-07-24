@@ -1,16 +1,8 @@
-/*Sliding Text and Icon Menu Style*/
-@-webkit-keyframes colorchange {
-	0% {
-		-webkit-text-stroke: 10px red;
-	}
-	100% {
-		-webkit-text-stroke: 20px green;
-	}
-}
+/*Homepage Styles*/
 .mainHeading{
 	width: 100%;
    text-align: center;
-   margin-top: 35px;
+   margin-top: 5px;
    font-size: 80px; 
    font-family: Belleza;
    color: black;/*rgb(80,90,91);*/ 
@@ -28,17 +20,21 @@
 	text-align: center;
 	color: rgb(40,132,123);
 	background-color: black;
-   	border: 1px solid #e3e3e3;
+   	border: 1px solid rgb(40,132,123);
    	border-radius: 146px;
    	opacity: 0.7;
-   	margin-left: 500px;
-   	margin-right: 500px;
+   	margin-left: auto;
+   	margin-right: auto;
+}
+.container {
+	margin-left: 110px;
+	margin-right: auto;
 }
 .sti-menu{
 	width:100%;
-	position:relative;
-	margin:220px auto 0 auto;
-	margin-left: 107px;
+	margin-top: 240px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .sti-menu li{
 	float:left;
@@ -91,19 +87,27 @@
 	background-color:transparent;
 	left:50px;
 	top:30px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .sti-icon-care{
 	background-image:url(care.png);
 }
 .sti-icon-alternative{
-	background-image:url(alternative.png);
+	background-image:url(lib.png);
 }
 .sti-icon-family{
-	background-image:url(family.png);
+	background-image:url(admission.png);
 }
 .sti-icon-info{
-	background-image:url(info.png);
+	background-image:url(edu.png);
 }
 .sti-icon-technology{
-	background-image:url(technology.png);
+	background-image:url(facalities.png);
+}
+.sti-icon-gallery {
+	background-image: url(gallery.png)
+}
+.sti-icon-studentsCorner {
+	background-image: url(student.png)
 }
