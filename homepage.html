@@ -2,33 +2,29 @@
 <html lang="en">
     <head>
         <title>OSSS</title>
-		<meta charset="UTF-8" />
-        <meta name="description" content="Animated Text and Icon Menu with jQuery" />
-        <meta name="keywords" content="jquery, menu, navigation, sliding, animation, icon" />
-		<meta name="author" content="Codrops" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
 		<link rel="stylesheet" type="text/css" href="stimenu.css" />
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
 		<link href='http://fonts.googleapis.com/css?family=Wire+One&v1' rel='stylesheet' type='text/css' />
-		<link href='http://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
-		<link href="favicon.jpg" rel="icon" type="image/x-icon" />
+		<link href="logo.png" rel="icon" type="image/x-icon" />
 	</head>
     <body>
     	<div class = "bg"></div>
+    	<img src = "logo.png" style = "display: block;position: absolute;margin-top: 10px;margin-left: 20px;"/>
 		<div class = "mainHeading">
-	 		Oxford Senior Secondary School
+	 		<p>Oxford Senior Secondary School</p>
 	 	</div>
 	 	<div class = "subHeading">
 	 		<p class = "heading2">The Pride of Oxfordians</p>
 	 	</div>
  		</div>
 
-		<div class="container" style = "opacity: 0.9;position: relative;">
-			<ul id="sti-menu" class="sti-menu" style = "position: absolute;">
+		<div class="container" style = "opacity: 0.9;position: absolute;">
+			<ul id="sti-menu" class="sti-menu" style = "width: 1212px;margin-left: auto;margin-right: auto;">
 				<li data-hovercolor="#ff395e">
-					<a href="#">
+					<a href="AboutOsss/about.html">
 						<h2 data-type="mText" class="sti-item">ABOUT OSSS</h2>
 						<h3 data-type="sText" class="sti-item">Our Founders & Faculty</h3>
 						<span data-type="icon" class="sti-icon sti-icon-alternative sti-item"></span>
@@ -72,7 +68,9 @@
 			</ul>
 		</div>
 		<footer>
-			<a href="#"><strong>SSS</strong></a>
+			<a href="contributors.html"><strong>Contributors</strong></a>
+			<p style = "text-align: left;color: rgb(76,76,74);margin-top: -20px;">Version 1</p>
+			<p style = "text-align: center;color: rgb(76,76,74);margin-top: -20px;">Copyright 2014 Oxford Senior Secondary School</p>
 		</footer>	
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
@@ -93,8 +91,6 @@
 		  top:0;
 		  left:0;
 		  z-index: -1;
-
 		}
-
-    </style>
+	</style>
 </html>
