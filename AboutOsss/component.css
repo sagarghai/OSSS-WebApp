@@ -28,6 +28,18 @@ nav a:hover,
 nav a:focus {
 	outline: none;
 }
+.BigName {
+		color: rgb(90,90,90);
+}
+.BigName:hover{
+		color:rgb(54,175,169);
+}
+.BigHeadings {
+		color: rgb(90,90,90);
+}
+.BigHeadings:hover {
+	color: rgb(54,175,169);	
+}
 
 /* Effect 1: Brackets */
 .cl-effect-1 a::before,
@@ -184,6 +196,11 @@ nav a:focus {
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
+	.email:hover {
+	font-weight: bold;
+	
+	color: rgb(54,175,169);
+}
 }
 
 /* Effect 5: same word slide in */
