@@ -76,7 +76,7 @@ h1 span{
 }
 /* Footer Style */
 footer{
-	position: fixed;
+	position: absolute;
 	width:100%;
 	height:30px;
 	line-height:24px;
