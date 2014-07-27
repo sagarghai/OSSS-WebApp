@@ -130,7 +130,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   box-sizing: border-box;
 }
 html { overflow-y: scroll; }
-
+body { 
+  background: #eee url('http://i.imgur.com/eeQeRmk.png'); /* http://subtlepatterns.com/weave/ */
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  /*font-size: 62.5%;*/
+  line-height: 1;
+  /*color: #585858;*/
+  padding: 22px 10px;
+  padding-bottom: 55px;
+}
 
 ::selection { background: #5f74a0; color: #fff; }
 ::-moz-selection { background: #5f74a0; color: #fff; }
@@ -139,7 +147,7 @@ html { overflow-y: scroll; }
 br { display: block; line-height: 1.6em; } 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
-/*ol, ul { list-style: none; }*/
+ol, ul { list-style: none; }
 
 input, textarea { 
   -webkit-font-smoothing: antialiased;
@@ -171,9 +179,9 @@ h1 {
 /** page structure **/
 #wrapper {
   display: block;
-  width: 700px;
+  width: 850px;
   background: #fff;
-  margin: 0 0 0 -10px;
+  margin: 0 auto;
   padding: 10px 17px;
   -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
   margin-left: 1550;
@@ -232,6 +240,6 @@ h1 {
 
 }
 #keywords tbody tr td.holidayName {
-  /*text-align: left;*/
+  text-align: left;
   font-family: Belleza;
 }
