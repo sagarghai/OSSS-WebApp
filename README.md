@@ -1,5 +1,5 @@
 Apps/Tools 
 ==========
-1. Team Communication: Slack + Telegram
+1. Team Communication: Slack + Telegram + ScreenHero
 2. Issue Tracking: 
 3. IDEs: Brackets + RubyMine
