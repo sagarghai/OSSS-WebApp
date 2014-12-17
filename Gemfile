@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'polyamorous', github: 'activerecord-hackery/polyamorous'
+gem "formtastic", github: "justinfrench/formtastic"
+gem "ransack", github: "activerecord-hackery/ransack"
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
 # Use sqlite3 as the database for Active Record
