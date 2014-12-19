@@ -739,22 +739,28 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 }
 
-#page-wrap {
-    width: 80%;
-    margin: 0 auto;
 
-}
-.pos_left{
-    position: relative;
-    left: 200px;
-}
 
-body
-{
-    font-family: 'Belleza', sans-serif;
-}
 .row {
     margin-right: -15px;
     margin-left: -15px;
     margin-bottom: 10px;
 }
+
+.row1 {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -10px;
+}
+.containerx {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -18px;
+    margin-top: -18px;
+}
+.hrx{
+    margin-bottom: 32px;
+}
+
