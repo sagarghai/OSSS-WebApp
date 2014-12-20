@@ -848,3 +848,24 @@ fieldset[disabled] .btn-info.active {
 .fontsmall {
     font-size: 2px;
 }
+
+.borderradius {
+    border-radius: 360px;
+}
+.container-footer {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #337ab7;
+
+
+}
+.container-footer p{
+
+    color: white;
+}
+body .container-footer{
+    text-align: center;
+    color:white;
+}
