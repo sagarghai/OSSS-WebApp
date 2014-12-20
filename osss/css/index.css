@@ -743,10 +743,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 
 
-.row {
+.row1 {
     margin-right: -15px;
     margin-left: -15px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .row1 {
@@ -844,3 +844,7 @@ fieldset[disabled] .btn-info.active {
     background-color: #fff;
 }
 
+
+.fontsmall {
+    font-size: 2px;
+}
