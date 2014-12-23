@@ -869,8 +869,8 @@ fieldset[disabled] .btn-info.active {
 body .container-footer{
     text-align: center;
     color:white;
-    position: relative;
-    height: 50px;
+    position: absolute;
+    height: 20px;
     bottom: 0;
     width: 100%;
 }
@@ -938,3 +938,36 @@ width: 100%;
     font-family: 'Belleza', sans-serif;
 }
 
+
+.capt-img {
+    margin-top: 80px;
+}
+
+.auntiji-img {
+    margin-top: 60px;
+}
+
+.belleza-h1 {
+    font-size: 50px;
+    font-family: 'Belleza', sans-serif;
+
+}
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+#footer {
+
+    width:100%;
+
+    position:relative;
+    bottom:0;
+    left:0;
+}
