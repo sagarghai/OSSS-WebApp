@@ -937,4 +937,10 @@ width: 100%;
     font-size: 20px;
     font-family: 'Belleza', sans-serif;
 }
-
+.vr {
+    margin-left: 10%;
+}
+.btn-wide {
+    padding-right: 100px;
+    text-align: center;
+}
