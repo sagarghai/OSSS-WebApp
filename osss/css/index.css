@@ -1023,3 +1023,17 @@ body {
     text-align: center;
     color: #4E4F53;
 }
+
+.centreimage {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.belleza-h2-center {
+    text-align: center;
+    color: #337AB7;
+
+    font-size: 40px;
+    font-family: 'Belleza', sans-serif;
+
+}
