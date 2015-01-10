@@ -970,7 +970,7 @@ body {
 }
 .button-text {
     font-family: Belleza;
-    font-size: 15px;
+    font-size: 14px;
 }
 .well {
     min-height: 20px;
@@ -1021,7 +1021,7 @@ body {
     font-family: "Dancing Script";
     font-size: 28px;
     text-align: center;
-    color: #4E4F53;
+    color: #70727A;
 }
 
 .centreimage {
@@ -1032,8 +1032,18 @@ body {
 .belleza-h2-center {
     text-align: center;
     color: #337AB7;
-
     font-size: 40px;
     font-family: 'Belleza', sans-serif;
-
+}
+table {
+    font-family: "Belleza";
+    font-size: 18px;
+}
+.belleza-ul {
+    font-family: "Belleza";
+    font-size: 19px;
+    text-align: left;
+}
+.blue-color {
+    color: #337AB7;
 }
